@@ -3,7 +3,7 @@
  "header": {
    "description": "Brighter Ores!",
    "name": "Bordered Ores!",
-   "uuid": "e2de6a0e-598b-4827-a0a0-099aa085fc8d",
+   "uuid": "abb8b75f-baa3-451a-84cb-d2c5bb4fe192",
    "version": [1, 0, 0],
    "min_engine_version": [1, 16, 0]
   },
@@ -11,7 +11,7 @@
    {
      "description": "Make ores more visible in the dark!",
      "type": "resources",
-     "uuid": "61b7e866-8072-45b3-8eed-fb4acaa28d0b",
+     "uuid": "87cc9620-6b45-48fc-89b6-c1e6e47c4f1d",
      "version": [1, 0, 0]
    }
  ]
