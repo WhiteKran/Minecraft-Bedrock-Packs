@@ -9,7 +9,7 @@
     },
     "modules": [
         {
-            "description": "Rename Minecarts to turn them invisible!",
+            "description": "Rename Minecarts to §§ to turn them invisible!",
             "type": "resources",
             "uuid": "ec6cdde2-099a-4c25-802e-91692b2401d4",
             "version": [0, 0, 1]
