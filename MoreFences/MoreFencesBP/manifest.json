@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "MoreFences",
+		"description": "MoreFences Behavior Pack",
+		"uuid": "1f5916a2-116a-4500-9ec4-8ec5b3b59518",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["whitekran"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.4.1"]
+		}
+	},
+	"capabilities":["script_eval"],
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "bd753963-202c-48be-aaf8-8592fa49f8af",
+			"type": "data"
+		}, 
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "35bc0c0e-6a5e-4ffb-b60c-4a2407e89966",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "20d8819c-89cd-4ddb-a72b-5a9ee8808f8e",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0-beta"
+		}
+	]
+}

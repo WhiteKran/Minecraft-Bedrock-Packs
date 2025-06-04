@@ -4,7 +4,7 @@
         "description": "Rename Minecarts to turn them invisible!",
         "name": "Invisible Minecarts!",
         "uuid": "50e96773-5e83-47e3-bff6-3b92ca020c9e",
-        "version": [0, 0, 1],
+        "version": [1, 0, 2],
         "min_engine_version": [ 1, 21, 0 ]
     },
     "modules": [
@@ -12,7 +12,7 @@
             "description": "Rename Minecarts to §§ to turn them invisible!",
             "type": "resources",
             "uuid": "ec6cdde2-099a-4c25-802e-91692b2401d4",
-            "version": [0, 0, 1]
+            "version": [1, 0, 2]
         }
     ]
 }

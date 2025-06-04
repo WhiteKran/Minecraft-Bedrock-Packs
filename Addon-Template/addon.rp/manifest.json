@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "addon_template",
+		"description": "Addon Template Resource Pack Description",
+		"uuid": "9fced890-5dbd-436f-b09d-82ffc0c8ba1d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["whitekran"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.4.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "addon_template",
+			"type": "resources",
+			"uuid": "ad5b6ad3-0686-4bb2-8f6f-fc6023cc77d3",
+			"version": [1, 0, 0]
+		}
+	]
+}
