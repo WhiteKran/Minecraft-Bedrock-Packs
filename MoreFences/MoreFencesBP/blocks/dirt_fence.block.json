@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "MoreFences:dirt_fence",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.6,
+                "item_specific_speeds": [
+                    {"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:wooden_tier')"}, "destroy_speed": 0.4},
+                    {"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:stone_tier')"}, "destroy_speed": 0.2},
+                    {"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:iron_tier')"}, "destroy_speed": 0.15},
+                    {"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:golden_tier')"}, "destroy_speed": 0.1},
+                    {"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:diamond_tier')"}, "destroy_speed": 0.1},
+                    {"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:netherite_tier')"}, "destroy_speed": 0.1}
+                ]
+            },
+            "minecraft:destructible_by_explosion": {"explosion_resistance": 0.5},
+            "minecraft:material_instances": {"*": {"texture": "dirt_slab", "render_method": "alpha_test"}},
+            "minecraft:light_dampening": 15,
+            "minecraft:map_color": "#453601",
+            "minecraft:geometry": "geometry.fence_model",
+            "minecraft:collision_box": {"origin": [-8, 0, -8], "size": [16, 16, 16]},
+            "minecraft:selection_box": {"origin": [-8, 0, -8], "size": [16, 16, 16]}
+        }
+    }
+}

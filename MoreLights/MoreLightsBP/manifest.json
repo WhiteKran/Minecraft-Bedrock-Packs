@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "MoreLightsBP",
+        "description": "Adds more light sources to Minecraft Bedrock Edition.",
+        "uuid": "7b0d0883-5d31-4c93-a627-ad9b063d79e6",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 16, 0]
+    },
+    "modules": [
+        {
+            "description": "Adds more light sources to Minecraft Bedrock Edition.",
+            "type": "data",
+            "uuid": "14c3ffe5-5ab0-407b-8713-e14562946749",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "0449d5aa-0071-4c66-a9c3-c9e57eb1cdf8",
+            "version": [1, 0, 1]
+        }
+    ]
+}
