@@ -5,8 +5,8 @@
         "morelights:dark_oak_lamp": {
             "textures": "textures/blocks/dark_oak_lamp.png"
         },
-        "ancient_debris_top": {
-            "textures": "textures/blocks/ancient_debris_top.png"
+        "morelights:cherry_lamp": {
+            "textures": "textures/blocks/cherry_lamp.png"
         }
     }   
 }
