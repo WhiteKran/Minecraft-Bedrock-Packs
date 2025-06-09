@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morelights:cherry_lamp"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "S",
+      "D",
+      "S"
+    ],
+    "key": {
+      "D": { "item": "minecraft:glowstone" },
+      "S": { "item": "minecraft:cherry_slab" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:glowstone"
+      }
+    ],
+    "result": {
+      "item": "morelights:cherry_lamp",
+      "count": 1
+    }
+  }
+}

@@ -1,3 +1,25 @@
-tile.morelights:dark_oak_lamp.name=Dark Oak Lamp
+tile.morelights:acacia_lamp.name=Acacia Lamp
+tile.morelights:bamboo_lamp.name=Bamboo Lamp
+tile.morelights:birch_lamp.name=Birch Lamp
+tile.morelights:crimson_lamp.name=Crimson Lamp
 tile.morelights:cherry_lamp.name=Cherry Lamp
+tile.morelights:dark_oak_lamp.name=Dark Oak Lamp
+tile.morelights:jungle_lamp.name=Jungle Lamp
+tile.morelights:mangrove_lamp.name=Mangrove Lamp
 tile.morelights:oak_lamp.name=Oak Lamp
+tile.morelights:pale_oak_lamp.name=Pale Oak Lamp
+tile.morelights:spruce_lamp.name=Spruce Lamp
+tile.morelights:warped_lamp.name=Warped Lamp
+
+tile.morelights:chiseled_acacia_planks.name=Chiseled Acacia Planks
+tile.morelights:chiseled_bamboo_planks.name=Chiseled Bamboo Planks
+tile.morelights:chiseled_birch_planks.name=Chiseled Birch Planks
+tile.morelights:chiseled_cherry_planks.name=Chiseled Cherry Planks
+tile.morelights:chiseled_crimson_planks.name=Chiseled Crimson Planks
+tile.morelights:chiseled_dark_oak_planks.name=Chiseled Dark Oak Planks
+tile.morelights:chiseled_jungle_planks.name=Chiseled Jungle Planks
+tile.morelights:chiseled_mangrove_planks.name=Chiseled Mangrove Planks
+tile.morelights:chiseled_oak_planks.name=Chiseled Oak Planks
+tile.morelights:chiseled_pale_oak_planks.name=Chiseled Pale Oak Planks
+tile.morelights:chiseled_spruce_planks.name=Chiseled Spruce Planks
+tile.morelights:chiseled_warped_planks.name=Chiseled Warped Planks

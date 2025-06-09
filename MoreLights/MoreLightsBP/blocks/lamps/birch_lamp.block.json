@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "morelights:birch_lamp",
+            "menu_category": {
+				"category": "construction"
+			}
+        },
+        "components": {
+            "minecraft:light_emission": 15,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "morelights:birch_lamp"
+                }
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+    }
+}

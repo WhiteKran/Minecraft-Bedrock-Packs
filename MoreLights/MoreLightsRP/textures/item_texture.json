@@ -2,9 +2,30 @@
     "resource_pack_name": "MoreLightsRP Item Textures",
     "texture_name": "atlas.items",
     "texture_data": {
-        "morelights:dark_oak_lamp": { "textures": "textures/blocks/dark_oak_lamp.png" },
-        "morelights:cherry_lamp": {"textures":"textures/blocks/cherry_lamp.png"},
-        "morelights:oak_lamp": {"textures":"textures/blocks/oak_lamp.png"}
+        "morelights:acacia_lamp": { "textures": "textures/blocks/chiseled_acacia_planks.png" },
+        "morelights:bamboo_lamp": { "textures": "textures/blocks/chiseled_bamboo_planks.png" },
+        "morelights:birch_lamp": { "textures": "textures/blocks/chiseled_birch_planks.png" },
+        "morelights:crimson_lamp": { "textures": "textures/blocks/chiseled_crimson_planks.png" },
+        "morelights:cherry_lamp": { "textures": "textures/blocks/chiseled_cherry_planks.png" },
+        "morelights:dark_oak_lamp": { "textures": "textures/blocks/chiseled_dark_oak_planks.png" },
+        "morelights:jungle_lamp": { "textures": "textures/blocks/chiseled_jungle_planks.png" },
+        "morelights:mangrove_lamp": { "textures": "textures/blocks/chiseled_mangrove_planks.png" },
+        "morelights:oak_lamp": { "textures": "textures/blocks/chiseled_oak_planks.png" },
+        "morelights:pale_oak_lamp": { "textures": "textures/blocks/chiseled_pale_oak_planks.png" },
+        "morelights:spruce_lamp": { "textures": "textures/blocks/chiseled_spruce_planks.png" },
+        "morelights:warped_lamp": { "textures": "textures/blocks/chiseled_warped_planks.png" },
 
+        "morelights:chiseled_acacia_planks": { "textures": "textures/blocks/chiseled_acacia_planks.png" },  
+        "morelights:chiseled_bamboo_planks": { "textures": "textures/blocks/chiseled_bamboo_planks.png" },
+        "morelights:chiseled_birch_planks": { "textures": "textures/blocks/chiseled_birch_planks.png" },
+        "morelights:chiseled_cherry_planks": { "textures": "textures/blocks/chiseled_cherry_planks.png" },
+        "morelights:chiseled_crimson_planks": { "textures": "textures/blocks/chiseled_crimson_planks.png" },
+        "morelights:chiseled_dark_oak_planks": { "textures": "textures/blocks/chiseled_dark_oak_planks.png" },
+        "morelights:chiseled_jungle_planks": { "textures": "textures/blocks/chiseled_jungle_planks.png" },
+        "morelights:chiseled_mangrove_planks": { "textures": "textures/blocks/chiseled_mangrove_planks.png" },
+        "morelights:chiseled_oak_planks": { "textures": "textures/blocks/chiseled_oak_planks.png" },
+        "morelights:chiseled_pale_oak_planks": { "textures": "textures/blocks/chiseled_pale_oak_planks.png" },
+        "morelights:chiseled_spruce_planks": { "textures": "textures/blocks/chiseled_spruce_planks.png" },
+        "morelights:chiseled_warped_planks": { "textures": "textures/blocks/chiseled_warped_planks.png" }
     }
 }

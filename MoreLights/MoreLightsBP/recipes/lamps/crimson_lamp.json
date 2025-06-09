@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morelights:crimson_lamp"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "S",
+      "D",
+      "S"
+    ],
+    "key": {
+      "D": { "item": "minecraft:glowstone" },
+      "S": { "item": "minecraft:crimson_slab" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:glowstone"
+      }
+    ],
+    "result": {
+      "item": "morelights:crimson_lamp",
+      "count": 1
+    }
+  }
+}

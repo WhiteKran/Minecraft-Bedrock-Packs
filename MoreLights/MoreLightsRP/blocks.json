@@ -1,5 +1,27 @@
 {
-    "morelights:dark_oak_lamp":{"sound": "wood"},
-    "morelights:cherry_lamp":{"sound": "wood"},
-    "morelights:oak_lamp":{"sound": "wood"}
+    "morelights:acacia_lamp": { "sound": "wood" },
+    "morelights:bamboo_lamp": { "sound": "wood" },
+    "morelights:birch_lamp": { "sound": "wood" },
+    "morelights:crimson_lamp": { "sound": "wood" },
+    "morelights:cherry_lamp": { "sound": "wood" },
+    "morelights:dark_oak_lamp": { "sound": "wood" },
+    "morelights:jungle_lamp": { "sound": "wood" },
+    "morelights:mangrove_lamp": { "sound": "wood" },
+    "morelights:oak_lamp": { "sound": "wood" },
+    "morelights:pale_oak_lamp": { "sound": "wood" },
+    "morelights:spruce_lamp": { "sound": "wood" },
+    "morelights:warped_lamp": { "sound": "wood" },
+
+    "morelights:chiseled_acacia_planks": { "sound": "wood" },
+    "morelights:chiseled_bamboo_planks": { "sound": "wood" },
+    "morelights:chiseled_birch_planks": { "sound": "wood" },
+    "morelights:chiseled_cherry_planks": { "sound": "wood" },
+    "morelights:chiseled_crimson_planks": { "sound": "wood" },
+    "morelights:chiseled_dark_oak_planks": { "sound": "wood" },
+    "morelights:chiseled_jungle_planks": { "sound": "wood" },
+    "morelights:chiseled_mangrove_planks": { "sound": "wood" },
+    "morelights:chiseled_oak_planks": { "sound": "wood" },
+    "morelights:chiseled_pale_oak_planks": { "sound": "wood" },
+    "morelights:chiseled_spruce_planks": { "sound": "wood" },
+    "morelights:chiseled_warped_planks": { "sound": "wood" }
 }

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morelights:chiseled_spruce_planks"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": { "item": "minecraft:spruce_slab" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:spruce_slab"
+      }
+    ],
+    "result": {
+      "item": "morelights:chiseled_spruce_planks",
+      "count": 1
+    }
+  }
+}

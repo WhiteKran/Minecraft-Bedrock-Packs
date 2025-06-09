@@ -1,0 +1,19 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "morelights:chiseled_pale_oak_planks",
+            "menu_category": {
+				"category": "construction"
+			}
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "morelights:chiseled_pale_oak_planks"
+                }
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+    }
+}

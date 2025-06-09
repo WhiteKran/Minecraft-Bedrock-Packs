@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morelights:chiseled_oak_planks"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": { "item": "minecraft:oak_slab" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:oak_slab"
+      }
+    ],
+    "result": {
+      "item": "morelights:chiseled_oak_planks",
+      "count": 1
+    }
+  }
+}

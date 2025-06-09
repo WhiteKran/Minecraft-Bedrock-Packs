@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morelights:oak_lamp"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "S",
+      "D",
+      "S"
+    ],
+    "key": {
+      "D": { "item": "minecraft:glowstone" },
+      "S": { "item": "minecraft:oak_slab" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:glowstone"
+      }
+    ],
+    "result": {
+      "item": "morelights:oak_lamp",
+      "count": 1
+    }
+  }
+}
