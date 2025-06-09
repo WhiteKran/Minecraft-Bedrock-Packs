@@ -3,6 +3,8 @@
     "texture_name": "atlas.items",
     "texture_data": {
         "morelights:dark_oak_lamp": { "textures": "textures/blocks/dark_oak_lamp.png" },
-        "morelights:cherry_lamp": {"textures":"textures/blocks/cherry_lamp.png"}
+        "morelights:cherry_lamp": {"textures":"textures/blocks/cherry_lamp.png"},
+        "morelights:oak_lamp": {"textures":"textures/blocks/oak_lamp.png"}
+
     }
 }

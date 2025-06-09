@@ -1,8 +1,5 @@
 {
-    "morelights:dark_oak_lamp":{
-        "sound": "wood"
-    },
-    "morelights:cherry_lamp":{
-        "sound": "wood"
-    }
+    "morelights:dark_oak_lamp":{"sound": "wood"},
+    "morelights:cherry_lamp":{"sound": "wood"},
+    "morelights:oak_lamp":{"sound": "wood"}
 }
