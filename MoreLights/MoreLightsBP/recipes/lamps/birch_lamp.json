@@ -2,16 +2,16 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "morelights:birch_lamp"
+      "identifier": "morelights:birch_lamp_recipe"
     },
     "tags": ["crafting_table"],
     "pattern": [
       "S",
-      "D",
+      "G",
       "S"
     ],
     "key": {
-      "D": { "item": "minecraft:glowstone" },
+      "G": { "item": "minecraft:glowstone" },
       "S": { "item": "minecraft:birch_slab" }
     },
     "unlock": [

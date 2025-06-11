@@ -14,6 +14,17 @@
                     "texture": "morelights:acacia_lamp"
                 }
             },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3,
+				"item_specific_speeds": [
+					{"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:wooden_tier')"}, 	"destroy_speed": 0.4},
+					{"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:stone_tier')"}, 	"destroy_speed": 0.2},
+					{"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:iron_tier')"}, 		"destroy_speed": 0.15},
+					{"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:golden_tier')"}, 	"destroy_speed": 0.1},
+					{"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:diamond_tier')"}, 	"destroy_speed": 0.1},
+					{"item": {"tags": "q.all_tags('minecraft:is_shovel', 'minecraft:netherite_tier')"}, "destroy_speed": 0.1}
+				]
+			},
             "minecraft:geometry": "minecraft:geometry.full_block"
         }
     }

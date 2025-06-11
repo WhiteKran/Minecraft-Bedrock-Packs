@@ -13,6 +13,17 @@
                     "texture": "morelights:chiseled_spruce_planks"
                 }
             },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+				"item_specific_speeds": [
+					{"item": {"tags": "q.all_tags('minecraft:is_axe', 'minecraft:wooden_tier')"}, 	"destroy_speed": 1},
+					{"item": {"tags": "q.all_tags('minecraft:is_axe', 'minecraft:stone_tier')"}, 	"destroy_speed": 0.5},
+					{"item": {"tags": "q.all_tags('minecraft:is_axe', 'minecraft:iron_tier')"}, 	"destroy_speed": 0.34},
+					{"item": {"tags": "q.all_tags('minecraft:is_axe', 'minecraft:golden_tier')"}, 	"destroy_speed": 0.265},
+					{"item": {"tags": "q.all_tags('minecraft:is_axe', 'minecraft:diamond_tier')"}, 	"destroy_speed": 0.35},
+					{"item": {"tags": "q.all_tags('minecraft:is_axe', 'minecraft:netherite_tier')"}, "destroy_speed": 0.1}
+				]
+			},
             "minecraft:geometry": "minecraft:geometry.full_block"
         }
     }

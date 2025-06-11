@@ -2,16 +2,16 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "morelights:dark_oak_lamp"
+      "identifier": "morelights:dark_oak_lamp_recipe"
     },
     "tags": ["crafting_table"],
     "pattern": [
       "S",
-      "D",
+      "G",
       "S"
     ],
     "key": {
-      "D": { "item": "minecraft:glowstone" },
+      "G": { "item": "minecraft:glowstone" },
       "S": { "item": "minecraft:dark_oak_slab" }
     },
     "unlock": [

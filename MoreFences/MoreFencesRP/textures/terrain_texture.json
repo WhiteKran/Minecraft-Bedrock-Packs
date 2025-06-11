@@ -1,0 +1,7 @@
+{
+    "resource_pack_name": "MoreFences Terrain Textures",
+    "texture_name": "atlas.terrain",
+    "texture_data": {
+        "morefences:dirt_fence": { "textures": "textures/blocks/dirt" }
+    }
+}
