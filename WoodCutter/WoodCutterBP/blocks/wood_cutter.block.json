@@ -1,0 +1,149 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "woodcutter:woodcutter",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:crafting_table": {
+				"crafting_tags": [
+					"woodcutter:woodcutter"
+				],
+				"table_name": "Woodcutter"
+			},
+
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 9, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 9, 16]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2.4,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_axe', 'minecraft:wooden_tier')"
+						},
+						"destroy_speed": 1.2
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_axe', 'minecraft:stone_tier')"
+						},
+						"destroy_speed": 0.6
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_axe', 'minecraft:iron_tier')"
+						},
+						"destroy_speed": 0.4
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_axe', 'minecraft:golden_tier')"
+						},
+						"destroy_speed": 0.2
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_axe', 'minecraft:diamond_tier')"
+						},
+						"destroy_speed": 0.32
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_axe', 'minecraft:netherite_tier')"
+						},
+						"destroy_speed": 0.28
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.woodcutter",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spruce_log_side",
+					"render_method": "alpha_test"
+				},
+				"woodcutter:woodcutter_saw": {
+					"texture": "woodcutter:woodcutter_saw",
+					"render_method": "alpha_test"
+				},
+				"woodcutter:woodcutter_top": {
+					"texture": "woodcutter:woodcutter_top",
+					"render_method": "alpha_test"
+				},
+				"woodcutter:woodcutter_bottom": {
+					"texture": "woodcutter:woodcutter_bottom",
+					"render_method": "alpha_test"
+				},
+				"woodcutter:woodcutter_side": {
+					"texture": "woodcutter:woodcutter_side",
+					"render_method": "alpha_test"
+				},
+				"woodcutter:empty": {
+					"texture": "woodcutter:empty",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#604317",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": true,
+						"on_liquid_touches": "blocking"
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			}
+		]
+	}
+}

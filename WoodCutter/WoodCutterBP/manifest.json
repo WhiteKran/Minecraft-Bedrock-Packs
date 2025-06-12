@@ -1,0 +1,49 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Woodcutter",
+        "description": "Woodcutter Behavior Pack",
+        "uuid": "62b6a72a-47ca-2157-dd61-5b843e2dc141",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "metadata": {
+        "authors": ["WhiteKran"],
+        "generated_with": {
+            "blockbench_block_wizard": ["1.4.1"]
+        }
+    },
+    "modules": [
+        {
+            "description": "Behavior",
+            "version": [1, 0, 0],
+            "uuid": "7c5592d8-b960-c1ce-02b2-73a20b0e11c2",
+            "type": "data"
+        },
+        {
+            "description": "Woodcutter Script",
+            "type": "script",
+            "language": "javascript",
+            "version": [1, 0, 0],
+            "uuid": "ce80fd84-54df-4351-8373-489c18536118",
+            "entry": "scripts/woodcutter_ui.js"
+        }
+    ],
+    "dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0-beta"
+		},
+        {
+            "module_name": "@minecraft/server-ui",
+			"version": "2.0.0-beta"
+        },
+        {
+            "uuid": "14c2e8ed-c5eb-3ff1-6c47-9257063040c0",
+            "version": [1, 0, 0]
+        }
+    ],
+    "capabilities": [
+        "script_eval"
+    ]
+}
