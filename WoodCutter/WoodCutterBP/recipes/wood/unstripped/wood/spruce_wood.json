@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "woodcutter:spruce_wood"
+    },
+    "tags": ["woodcutter:woodcutter"],
+    "pattern": [
+        "#"
+    ],
+    "key": {
+      "#": { "item": "minecraft:spruce_log" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:spruce_log"
+      }
+    ],
+    "result": {
+      "item": "minecraft:spruce_wood",
+      "count": 1
+    }
+  }
+}

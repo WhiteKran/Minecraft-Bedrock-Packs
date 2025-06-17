@@ -3,21 +3,19 @@
     "header": {
         "name": "Woodcutter",
         "description": "Woodcutter Behavior Pack",
-        "uuid": "62b6a72a-47ca-2157-dd61-5b843e2dc141",
+        "uuid": "2ffd83e8-0178-49da-a2a5-3771724cbbb1",
         "version": [1, 0, 0],
         "min_engine_version": [1, 20, 0]
     },
     "metadata": {
-        "authors": ["WhiteKran"],
-        "generated_with": {
-            "blockbench_block_wizard": ["1.4.1"]
-        }
+        "authors": ["whitekran"],
+        "product_type": "addon"
     },
     "modules": [
         {
             "description": "Behavior",
             "version": [1, 0, 0],
-            "uuid": "7c5592d8-b960-c1ce-02b2-73a20b0e11c2",
+            "uuid": "2fd07afd-698c-46e1-ab56-f0d51650fc8a",
             "type": "data"
         },
         {
@@ -30,16 +28,8 @@
         }
     ],
     "dependencies": [
-		{
-			"module_name": "@minecraft/server",
-			"version": "2.0.0-beta"
-		},
         {
-            "module_name": "@minecraft/server-ui",
-			"version": "2.0.0-beta"
-        },
-        {
-            "uuid": "14c2e8ed-c5eb-3ff1-6c47-9257063040c0",
+            "uuid": "f374d4a0-b6e8-4a20-b60b-8cdf5dbedace",
             "version": [1, 0, 0]
         }
     ],

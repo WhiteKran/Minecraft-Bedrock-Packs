@@ -1,12 +1,8 @@
 [
     {
-        "flipbook_texture": "textures/blocks/woodcutter_saw",
-        "atlas_tile": "woodcutter:woodcutter_saw",
-        "frames": [
-            0,
-            1,
-            2
-        ],
+        "flipbook_texture": "textures/blocks/woodcutter",
+        "atlas_tile": "woodcutter:woodcutter",
+        "frames": [0,1,2],
         "ticks_per_frame": 1
     }
 ]

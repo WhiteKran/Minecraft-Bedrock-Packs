@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "woodcutter:stripped_cherry_log"
+    },
+    "tags": ["woodcutter:woodcutter"],
+    "pattern": [
+        "#"
+    ],
+    "key": {
+      "#": { "item": "minecraft:cherry_log" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cherry_log"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stripped_cherry_log",
+      "count": 1
+    }
+  }
+}

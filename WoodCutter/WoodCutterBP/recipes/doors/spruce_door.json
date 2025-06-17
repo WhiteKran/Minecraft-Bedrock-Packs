@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "woodcutter:spruce_door"
+    },
+    "tags": ["woodcutter:woodcutter"],
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "key": {
+      "#": { "item": "minecraft:spruce_planks" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:spruce_planks"
+      }
+    ],
+    "result": {
+      "item": "minecraft:spruce_door",
+      "count": 6
+    }
+  }
+}

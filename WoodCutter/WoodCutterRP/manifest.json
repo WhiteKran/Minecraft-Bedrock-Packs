@@ -3,7 +3,7 @@
 	"header": {
 		"name": "Woodcutter",
 		"description": "Woodcutter Resource Pack",
-		"uuid": "14c2e8ed-c5eb-3ff1-6c47-9257063040c0",
+		"uuid": "f374d4a0-b6e8-4a20-b60b-8cdf5dbedace",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
@@ -17,7 +17,7 @@
 		{
 			"description": "Woodcutter",
 			"type": "resources",
-			"uuid": "fc089c1d-c95e-9b90-cc16-cd4baf987b35",
+			"uuid": "690292bf-2244-4869-9371-464e52b6e7f5",
 			"version": [1, 0, 0]
 		}
 	]

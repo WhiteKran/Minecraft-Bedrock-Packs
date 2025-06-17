@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "woodcutter:stripped_warped_hyphae"
+    },
+    "tags": ["woodcutter:woodcutter"],
+    "pattern": [
+        "#"
+    ],
+    "key": {
+      "#": { "item": "minecraft:warped_hyphae" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:warped_hyphae"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stripped_warped_hyphae",
+      "count": 1
+    }
+  }
+}

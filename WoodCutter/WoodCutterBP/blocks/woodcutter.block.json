@@ -75,27 +75,7 @@
 			"minecraft:geometry": "geometry.woodcutter",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "spruce_log_side",
-					"render_method": "alpha_test"
-				},
-				"woodcutter:woodcutter_saw": {
-					"texture": "woodcutter:woodcutter_saw",
-					"render_method": "alpha_test"
-				},
-				"woodcutter:woodcutter_top": {
-					"texture": "woodcutter:woodcutter_top",
-					"render_method": "alpha_test"
-				},
-				"woodcutter:woodcutter_bottom": {
-					"texture": "woodcutter:woodcutter_bottom",
-					"render_method": "alpha_test"
-				},
-				"woodcutter:woodcutter_side": {
-					"texture": "woodcutter:woodcutter_side",
-					"render_method": "alpha_test"
-				},
-				"woodcutter:empty": {
-					"texture": "woodcutter:empty",
+					"texture": "woodcutter:woodcutter",
 					"render_method": "alpha_test"
 				}
 			},

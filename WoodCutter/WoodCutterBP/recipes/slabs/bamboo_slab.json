@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "woodcutter:bamboo_slab"
+    },
+    "tags": ["woodcutter:woodcutter"],
+    "pattern": [
+        "#"
+    ],
+    "key": {
+      "#": { "item": "minecraft:bamboo_planks" }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:bamboo_planks"
+      }
+    ],
+    "result": {
+      "item": "minecraft:bamboo_slab",
+      "count": 2
+    }
+  }
+}
