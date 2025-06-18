@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "chiseled_dark_oak_planks",
+		"metalness_emissive_roughness": "chiseled_dark_oak_planks_mer"
+	}
+}

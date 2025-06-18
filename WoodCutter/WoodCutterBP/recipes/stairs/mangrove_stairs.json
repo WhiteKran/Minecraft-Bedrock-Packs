@@ -6,7 +6,9 @@
     },
     "tags": ["woodcutter:woodcutter"],
     "pattern": [
-        "# "
+        "   ",
+        "  #",
+        "   "
     ],
     "key": {
       "#": { "item": "minecraft:mangrove_planks" }

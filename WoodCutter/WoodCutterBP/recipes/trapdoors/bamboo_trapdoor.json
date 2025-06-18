@@ -2,11 +2,13 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "woodcutter:bamboo_door"
+      "identifier": "woodcutter:bamboo_trapdoor"
     },
     "tags": ["woodcutter:woodcutter"],
     "pattern": [
-        "#"
+        "   ",
+        "   ",
+        "#  "
     ],
     "key": {
       "#": { "item": "minecraft:bamboo_planks" }

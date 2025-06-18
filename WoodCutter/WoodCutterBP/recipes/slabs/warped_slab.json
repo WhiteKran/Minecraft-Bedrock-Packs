@@ -2,11 +2,13 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "woodcutter:warped_sign"
+      "identifier": "woodcutter:warped_slab"
     },
     "tags": ["woodcutter:woodcutter"],
     "pattern": [
-        "#"
+        "   ",
+        " # ",
+        "   "
     ],
     "key": {
       "#": { "item": "minecraft:warped_planks" }
@@ -17,7 +19,7 @@
       }
     ],
     "result": {
-      "item": "minecraft:warped_sign",
+      "item": "minecraft:warped_slab",
       "count": 8
     }
   }

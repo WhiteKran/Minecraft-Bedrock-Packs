@@ -2,11 +2,13 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "woodcutter:acacia_trapoor"
+      "identifier": "woodcutter:acacia_trapdoor"
     },
     "tags": ["woodcutter:woodcutter"],
     "pattern": [
-        "#"
+        "   ",
+        "   ",
+        "#  "
     ],
     "key": {
       "#": { "item": "minecraft:acacia_planks" }
