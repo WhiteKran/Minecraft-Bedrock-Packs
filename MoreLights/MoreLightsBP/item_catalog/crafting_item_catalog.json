@@ -1,0 +1,57 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "construction",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "morelights:chiseled_acacia_planks",
+                            "name": "morelights:chiseled_planks_group_name"
+                        },
+                        "items": [
+                            "morelights:chiseled_acacia_planks",
+                            "morelights:chiseled_bamboo_planks",
+                            "morelights:chiseled_birch_planks",
+                            "morelights:chiseled_cherry_planks",
+                            "morelights:chiseled_crimson_planks",
+                            "morelights:chiseled_dark_oak_planks",
+                            "morelights:chiseled_jungle_planks",
+                            "morelights:chiseled_mangrove_planks",
+                            "morelights:chiseled_oak_planks",
+                            "morelights:chiseled_pale_oak_planks",
+                            "morelights:chiseled_spruce_planks",
+                            "morelights:chiseled_warped_planks"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category_name": "construction",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "minecraft:redstone_lamp",
+                            "name": "morelights:lamp_group_name"
+                        },
+                        "items": [
+                            "morelights:acacia_lamp",
+                            "morelights:bamboo_lamp",
+                            "morelights:birch_lamp",
+                            "morelights:cherry_lamp",
+                            "morelights:crimson_lamp",
+                            "morelights:dark_oak_lamp",
+                            "morelights:jungle_lamp",
+                            "morelights:mangrove_lamp",
+                            "morelights:oak_lamp",
+                            "morelights:pale_oak_lamp",
+                            "morelights:spruce_lamp",
+                            "morelights:warped_lamp"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

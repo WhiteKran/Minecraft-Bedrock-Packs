@@ -4,7 +4,7 @@
         "description": "MoreLightsRP - Adds more lighting options to Minecraft Bedrock.",
         "name": "MoreLightsRP",
         "uuid": "0449d5aa-0071-4c66-a9c3-c9e57eb1cdf8",
-        "version": [1, 0, 1],
+        "version": [1, 0, 2],
         "min_engine_version": [1, 20, 0]
     },
     "modules": [
@@ -12,7 +12,7 @@
             "description": "MoreLightsRP Resources",
             "type": "resources",
             "uuid": "55b9c5c8-0a45-4fb9-9f34-dc823af27b4e",
-            "version": [1, 0, 1]
+			"version": [1, 0, 2]
         }
     ],
     "capabilities": [ "pbr" ]

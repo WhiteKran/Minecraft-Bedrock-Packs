@@ -23,3 +23,5 @@ tile.morelights:chiseled_oak_planks.name=Chiseled Oak Planks
 tile.morelights:chiseled_pale_oak_planks.name=Chiseled Pale Oak Planks
 tile.morelights:chiseled_spruce_planks.name=Chiseled Spruce Planks
 tile.morelights:chiseled_warped_planks.name=Chiseled Warped Planks
+morelights:lamp_group_name=Lamps
+morelights:chiseled_planks_group_name=Chiseled Planks
