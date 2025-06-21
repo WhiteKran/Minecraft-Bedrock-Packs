@@ -27,6 +27,8 @@
         "morelights:chiseled_oak_planks": { "textures": "textures/blocks/chiseled_oak_planks.png" },
         "morelights:chiseled_pale_oak_planks": { "textures": "textures/blocks/chiseled_pale_oak_planks.png" },
         "morelights:chiseled_spruce_planks": { "textures": "textures/blocks/chiseled_spruce_planks.png" },
-        "morelights:chiseled_warped_planks": { "textures": "textures/blocks/chiseled_warped_planks.png" }
+        "morelights:chiseled_warped_planks": { "textures": "textures/blocks/chiseled_warped_planks.png" },
+        "morelights:chiseled_obsidian" : { "textures": "textures/blocks/chiseled_obsidian"}
+
     }   
 }

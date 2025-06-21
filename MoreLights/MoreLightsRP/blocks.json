@@ -23,5 +23,6 @@
     "morelights:chiseled_oak_planks": { "sound": "wood" },
     "morelights:chiseled_pale_oak_planks": { "sound": "wood" },
     "morelights:chiseled_spruce_planks": { "sound": "wood" },
-    "morelights:chiseled_warped_planks": { "sound": "wood" }
+    "morelights:chiseled_warped_planks": { "sound": "wood" },
+    "morelights:chiseled_obsidian": {"sound": "obsidian"}
 }

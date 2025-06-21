@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "morelights:chiseled_obsidian",
+            "menu_category": {
+				"category": "construction"
+			}
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "morelights:chiseled_obsidian"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+				"item_specific_speeds": [
+					{"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"}, 	"destroy_speed": 1},
+					{"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"}, 	"destroy_speed": 0.5},
+					{"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"}, 	"destroy_speed": 0.34},
+					{"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"}, 	"destroy_speed": 0.265},
+					{"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"}, 	"destroy_speed": 0.35},
+					{"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"}, "destroy_speed": 0.1}
+				]
+			},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 15},
+            "minecraft:geometry": "minecraft:geometry.full_block"
+        }
+    }
+}
