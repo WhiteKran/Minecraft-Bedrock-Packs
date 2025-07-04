@@ -1,0 +1,59 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "morelights:obsidian_pillar",
+            "menu_category": {
+                "category": "construction"
+            },
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:block_face"]
+				}
+            }
+        },
+        "components": {
+            "minecraft:light_dampening": 15,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "morelights:obsidian_pillar"
+                },
+                "up": {"texture": "morelights:obsidian_pillar_top" },
+                "down": { "texture": "morelights:obsidian_pillar_top" }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2,
+                "item_specific_speeds": [
+                    {"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"},     "destroy_speed": 1},
+                    {"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"},      "destroy_speed": 0.5},
+                    {"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"},       "destroy_speed": 0.34},
+                    {"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"},     "destroy_speed": 0.265},
+                    {"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"},    "destroy_speed": 0.35},
+                    {"item": {"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"},  "destroy_speed": 0.1}
+                ]
+            },
+            "minecraft:destructible_by_explosion": {"explosion_resistance": 15},
+            "minecraft:geometry": "minecraft:geometry.full_block"
+        },
+        "permutations": [
+        {
+            "condition": "q.block_state('minecraft:block_face') == 'west' || q.block_state('minecraft:block_face') == 'east'",
+            "components": {
+                "minecraft:transformation": { "rotation": [0, 0, 90] }
+            }
+        },
+        {
+            "condition": "q.block_state('minecraft:block_face') == 'down' || q.block_state('minecraft:block_face') == 'up'",
+            "components": {
+                "minecraft:transformation": { "rotation": [0, 0, 0] }
+            }
+        },
+        {
+            "condition": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south'",
+            "components": {
+                "minecraft:transformation": { "rotation": [90, 0, 0] }
+            }
+        }
+        ]
+    }
+}

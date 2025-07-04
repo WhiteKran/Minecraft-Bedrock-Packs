@@ -45,7 +45,7 @@
 			"minecraft:geometry": "geometry.woodcutter",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "woodcutter:woodcutter",
+					"texture": "woodcutter:woodcutterv3",
 					"render_method": "alpha_test"
 				}
 			},
@@ -66,7 +66,7 @@
 				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 90, 0]
+						"rotation": [0, 0, 0]
 					}
 				}
 			},
@@ -74,7 +74,7 @@
 				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 270, 0]
+						"rotation": [0, 180, 0]
 					}
 				}
 			},
@@ -82,7 +82,7 @@
 				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 180, 0]
+						"rotation": [0, 90, 0]
 					}
 				}
 			},
@@ -90,7 +90,7 @@
 				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 0, 0]
+						"rotation": [0, 90, 0]
 					}
 				}
 			}

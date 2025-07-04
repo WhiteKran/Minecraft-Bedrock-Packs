@@ -8,6 +8,7 @@
 			}
         },
         "components": {
+            "minecraft:light_dampening": 15,
             "minecraft:material_instances": {
                 "*": {
                     "texture": "morelights:chiseled_acacia_planks"

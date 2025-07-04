@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "morelights:obsidian_tiles"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": { "item": "morelights:obsidian_bricks" }
+        },
+        "unlock": [
+            {
+                "item": "morelights:obsidian_bricks"
+            }
+        ],
+        "result": {
+            "item": "morelights:obsidian_tiles",
+            "count": 4
+        }
+    }
+}

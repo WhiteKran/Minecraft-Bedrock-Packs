@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "woodcutter_3",
+		"metalness_emissive_roughness": "woodcutter_3_mer",
+		"heightmap": "woodcutter_3_height"
+	}
+}

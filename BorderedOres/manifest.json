@@ -1,18 +1,21 @@
 {
- "format_version": 2,
- "header": {
-   "description": "Brighter Ores!",
-   "name": "Bordered Ores!",
-   "uuid": "abb8b75f-baa3-451a-84cb-d2c5bb4fe192",
-   "version": [1, 0, 0],
-   "min_engine_version": [1, 16, 0]
+  "format_version": 2,
+  "header": {
+    "description": "Brighter Ores!",
+    "name": "Bordered Ores!",
+    "uuid": "abb8b75f-baa3-451a-84cb-d2c5bb4fe192",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
   },
- "modules": [
-   {
-     "description": "Make ores more visible in the dark!",
-     "type": "resources",
-     "uuid": "87cc9620-6b45-48fc-89b6-c1e6e47c4f1d",
-     "version": [1, 0, 0]
-   }
- ]
+  "modules": [
+    {
+      "description": "Make ores more visible in the dark!",
+      "type": "resources",
+      "uuid": "87cc9620-6b45-48fc-89b6-c1e6e47c4f1d",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities":[
+    "pbr"
+  ]
 }
